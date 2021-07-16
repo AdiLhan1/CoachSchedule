@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoachSchedule</string>
+    <string name="title_newspaper">Новости</string>
+    <string name="title_calendar">Расписание</string>
+    <string name="title_favorite">Акции</string>
+    <string name="title_message">Сообщения</string>
+    <string name="title_menu">Ещё</string>
+    <string name="history_of_training">История тренировок</string>
+    <string name="date">21.12.2021</string>
+</resources>
