@@ -1,5 +1,6 @@
 package com.jacob.coach_schedule.ui.home
 
+import com.jacob.coach_schedule.R
 import com.jacob.coach_schedule.base.BaseEmptyFragment
 import com.jacob.coach_schedule.databinding.FragmentCoachScheduleBinding
 import com.jacob.coach_schedule.ui.adapter.FragmentAdapter
@@ -19,7 +20,7 @@ class CoachScheduleFragment :
 
     private val adapter by lazy {
         FragmentAdapter(
-            arrayOf("Тренировки", "Посещения"),
+            arrayOf(getString(R.string.train), getString(R.string.visit)),
             requireActivity().supportFragmentManager,
             arrayListOf(
                 CoachScheduleLessonsFragment(),

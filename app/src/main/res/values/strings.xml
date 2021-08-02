@@ -7,4 +7,6 @@
     <string name="title_menu">Ещё</string>
     <string name="history_of_training">История тренировок</string>
     <string name="date">21.12.2021</string>
+    <string name="train">Тренировки</string>
+    <string name="visit">Посещения</string>
 </resources>
